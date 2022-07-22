@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+:root {
+    --color_1: rgba(81, 154, 238, 0.781);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(6, 83, 170);
+}
+
+header{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color_1);
+    box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+    a{
+        color:white;
+        text-decoration: none;
+        
+    }
+    #logo {
+        font-size: 2em;
+    }
+    
+    nav{
+        
+        ul{
+            list-style: none; // remove the blotting
+            padding: 0;
+            margin: 0;
+            
+            li{
+                display: inline-block;
+                padding: 0 1em;
+                margin-top: 0.8em;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+}
+
+main{
+    color: white;
+    padding-top: 5em;
+    font-size: 2em;
+    background: url(../img/hero_image_1.jpg) no-repeat center/cover ;
+    height: 100vh;
+    width: 100vw;
+    
+    a{
+        border: 10px solid white;
+        width: 100px;
+        margin-top: 10em;
+        border-radius: 50%;
+        padding: 1em;
+        text-decoration: none;
+        color:black;
+    }
+
+}
