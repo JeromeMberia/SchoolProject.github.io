@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.container .item {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  margin: 10px;
+  height: 100px;
+  width: 20em;
+}
+.container #i2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.container #i2 .A {
+  width: 100%;
+  height: 100%;
+}
+.container #i2 .up {
+  background-color: aqua;
+  order: 1;
+}
+.container #i2 .down {
+  background-color: black;
+  order: 2;
+}
+
+.mo {
+  height: 100vh;
+  width: 100vw;
+}/*# sourceMappingURL=rehab_css.css.map */
