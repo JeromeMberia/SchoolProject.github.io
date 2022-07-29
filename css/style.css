@@ -194,6 +194,9 @@ footer p {
   text-align: center;
   font-size: 1.5em;
 }
+#re-main #re-option .re-sec section a:hover {
+  background-color: rgb(103, 103, 211);
+}
 
 #co-head {
   padding-top: 20px;
@@ -213,7 +216,6 @@ footer p {
   -o-object-fit: cover;
      object-fit: cover;
   width: 22em;
-  height: 20em;
   margin: 40px;
 }
 
